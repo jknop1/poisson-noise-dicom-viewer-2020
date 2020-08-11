@@ -1,0 +1,55 @@
+# Dependencies By File
+
+For Reference: -------------------------------------
+External Dependencies - programs not written by me
+Internal Dependencies - programs written by me
+----------------------------------------------------
+
+File (1): Dicom_Program.py
+External Dependencies:
+  glfw
+  numpy
+  sys
+  pydicom
+  freetype
+  tkinter
+Internal Dependencies:
+  normalize
+  Button
+  Read_Dicom
+  windowsWorkArea
+  
+File (2): Button.py
+External Dependencies:
+  glfw
+  OpenGL
+  numpy
+  freetype
+  glm
+Internal Dependencies:
+  normalize
+  
+File (3): Read_Dicom.py
+External Dependencies:
+  glfw
+  OpenGL
+  numpy
+  freetype
+  glm
+  os
+  pydicom
+Internal Dependencies:
+  normalize
+  
+File (4): normalize.py 
+External Dependencies:
+  pydicom
+  numpy
+Internal Dependencies:
+  None
+  
+File (5): windowsWorkArea.py
+External Dependencies:
+  None
+Internal Dependencies:
+  ctypes
